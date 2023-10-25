@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: spi-operator
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-operator@sha256:824f1bf1f11092d0b1a3dff9c791227ace101ff2cd1e418014fc8238dc64e3fe
+        name: container-image
+        resources: {}
+status: {}
