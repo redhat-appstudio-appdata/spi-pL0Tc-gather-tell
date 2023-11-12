@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-oauth@sha256:7ae8dc966389b7c7a9492c691f7e5b48da9e1c412d727e3edd122938fc3280c3
+      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-oauth@sha256:04f0118e35cc50bf2d0e83cfee1ba90d1c259950f66293d16f2099921d821980
         name: container-image
         resources: {}
 status: {}
