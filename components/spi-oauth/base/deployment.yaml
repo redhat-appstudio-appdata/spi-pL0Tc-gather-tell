@@ -10,7 +10,6 @@ metadata:
     app.kubernetes.io/part-of: spi
   name: spi-oauth
 spec:
-  replicas: 1
   revisionHistoryLimit: 0
   selector:
     matchLabels:
@@ -29,7 +28,10 @@ spec:
         ports:
         - containerPort: 8000
         resources:
+          limits:
+            cpu: 15m
+            memory: 30Mi
           requests:
-            cpu: 100m
-            memory: 256Mi
+            cpu: 10m
+            memory: 25Mi
 status: {}
