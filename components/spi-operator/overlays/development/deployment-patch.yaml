@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: spi-operator
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
