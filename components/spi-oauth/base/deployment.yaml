@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: spi-oauth
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-oauth@sha256:cf29fdb4d9b51c83ccedbcd5c3ad5bbc8eb5c03bf1ec9e0f5bcb589a29878305
+      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-oauth@sha256:c47e32a3dcc552c48cd5dd9c592d5d17cd5dd8445dbef52fbe6a34e637ab5bb8
         imagePullPolicy: Always
         name: container-image
         ports:
