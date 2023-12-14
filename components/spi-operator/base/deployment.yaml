@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: spi-operator
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-operator@sha256:91f10e0ddced5e0e3ec26c42e9d0cfeb1f9359bb4d99cdf32b62a63fe59aa5da
+      - image: quay.io/redhat-user-workloads/rhtap-spi-tenant/spi/spi-operator@sha256:59bb557f4f129f3e31638e3e75ca28d33980d99380dd341e596763ad70b4c7dd
         imagePullPolicy: Always
         name: container-image
         ports:
